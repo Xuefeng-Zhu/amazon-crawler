@@ -17,7 +17,7 @@ Apify.main(async () => {
     const requestQueue = await Apify.openRequestQueue();
     const proxyConfiguration = await Apify.createProxyConfiguration();
 
-    requestQueue.addRequest({
+    await requestQueue.addRequest({
         url: `https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=${keyword}`,
         userData: {
             label: SEARCH_LABEL,
