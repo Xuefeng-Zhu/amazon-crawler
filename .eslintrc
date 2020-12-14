@@ -1,0 +1,6 @@
+{
+  "extends": "@apify",
+  "globals": {
+    "$": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "PuppeteerCrawler Template",
+  "description": "Search products on Amazon.com",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "keyword": {
+      "title": "Keyword",
+      "type": "string",
+      "description": "Keyword to search.",
+      "editor": "textfield"
+    }
+  },
+  "required": ["keyword"]
+}
